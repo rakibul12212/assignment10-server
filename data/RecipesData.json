@@ -1,6 +1,6 @@
 [
     {
-      "id": "1",
+      "id": "01",
       "name": "Spaghetti with Meatballs",
       "ingredients": [
         "1 lb spaghetti",
@@ -14,7 +14,7 @@
       "picture": "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      "id": "2",
+      "id": "02",
       "name": "Chicken Tikka Masala",
       "ingredients": [
         "1 lb boneless, skinless chicken breasts, cut into bite-sized pieces",
@@ -28,7 +28,7 @@
       "picture": "https://images.pexels.com/photos/3386854/pexels-photo-3386854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      "id": "3",
+      "id": "03",
       "name": "Classic Cheeseburger",
       "ingredients": [
         "1 lb ground beef",

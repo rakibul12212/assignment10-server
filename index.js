@@ -21,6 +21,14 @@ app.get('/chefs/:id', (req, res) => {
     const selectedChef = chefsdata.find(chefdata => chefdata.id === id);
     res.send(selectedChef);
 });
+app.get('/recipes',(req,res)=>{
+    res.send(recipesdata);
+})
+app.get('/recipes/:id', (req, res) => {
+    const id = req.params.id;
+    const selectedRecipe = recipesdata.find(recipedata => recipedata.id === id);
+    res.send(selectedRecipe);
+});
 
 app.listen(port, () => {
   console.log( `Chefsmate server running on port ${port}!`);
